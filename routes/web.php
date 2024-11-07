@@ -8,6 +8,10 @@ Route::get('/', function () {
     //return view('welcome');
     return Inertia::render('Welcome');
 });
+Route::get('/test', function () {
+    //return view('welcome');
+    return Inertia::render('Test');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
